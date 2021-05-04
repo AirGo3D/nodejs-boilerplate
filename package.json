@@ -5,7 +5,8 @@
     "start": "pm2 start ecosystem.config.js && pm2 log",
     "build": "rm -rf ./build && tsc",
     "lint": "eslint ./src/**/*.ts -c .eslintrc.json",
-    "test": "jest"
+    "test": "jest",
+    "up": "docker-compose up"
   },
   "dependencies": {
     "@types/morgan": "^1.9.2",
